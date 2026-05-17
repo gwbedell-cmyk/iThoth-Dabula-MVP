@@ -100,5 +100,3 @@ with f1:
     card("Without Dabula", "Governance appears intact. Autonomous execution proceeds. Hidden meaning failure compounds.")
 with f2:
     card("With Dabula", "Human meaning is verified. Governance is grounded in intended meaning. Autonomy remains governable.")
-
-st.button("Request Governance Stress Test", type="primary")
