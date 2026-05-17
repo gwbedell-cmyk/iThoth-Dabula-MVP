@@ -38,7 +38,7 @@ with left:
     section_title("What Dabula does")
     st.markdown(
         """
-Dabula verifies what a human actually meant before autonomy begins.
+Dabula verifies what a human actually meant before autonomous action begins.
 It exposes the gap between a plausible machine interpretation and the governable objective the organization truly intended.
         """
     )
