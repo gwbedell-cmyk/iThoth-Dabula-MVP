@@ -10,7 +10,7 @@ def apply_theme():
             border: 1px solid rgba(255,255,255,0.12);
             border-radius: 18px;
             padding: 18px 20px;
-            background: linear-gradient(180deg, rgba(16,24,40,0.80), rgba(17,24,39,0.96));
+            background: linear-gradient(180deg, rgba(16,24,40,0.96), rgba(17,24,39,0.96));
             box-shadow: 0 10px 30px rgba(0,0,0,0.25);
             margin-bottom: 12px;
         }
