@@ -34,7 +34,7 @@ def apply_theme():
             border-radius: 999px;
             background: rgba(255,255,255,0.06);
             border: 1px solid rgba(255,255,255,0.12);
-            color: #cccccc;
+            color: #aaaaaa;
             font-size: 0.9rem;
         }
         </style>
