@@ -62,18 +62,6 @@ def metric_strip(items):
     html += "</div>"
     st.markdown(html, unsafe_allow_html=True)
 
-def apply_theme( ):
-    st.markdown("""
-    <style>
-    div.st.button > button {
-        margin_top: 30Px;
-    }
-    </style>
-    """, unsafe_allow_html=True)
-
-def section_title(text):
-    st.markdown(f"## {text}")
-
 def card(title, body):
     st.markdown(
         f"""
