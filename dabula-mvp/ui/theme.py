@@ -32,7 +32,7 @@ def apply_theme():
         .metric-pill {
             padding: 10px 14px;
             border-radius: 999px;
-            background: rgba(255,255,255,0.04);
+            background: rgba(255,255,255,0.06);
             border: 1px solid rgba(255,255,255,0.12);
             color: white;
             font-size: 0.9rem;
