@@ -39,7 +39,7 @@ def apply_theme():
             font-size: 0.9rem;
         }
         .button {
-            margin_top: 10px;
+            margin_top: 30px;
         }
         </style>
         """,
