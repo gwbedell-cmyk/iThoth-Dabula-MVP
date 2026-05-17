@@ -18,7 +18,7 @@ def apply_theme():
         .dabula-hero {
             padding: 28px;
             border-radius: 24px;
-            background: radial-gradient(circle at top left, #2b1b4f 0%, #0f172a 55%, #020617 100%);
+            background: radial-gradient(circle at top left, #2b1b4f 0%, #0f172a 40%, #020617 100%);
             border: 1px solid rgba(255,255,255,0.1);
             margin-bottom: 1.5rem;
         }
