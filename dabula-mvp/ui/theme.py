@@ -38,6 +38,9 @@ def apply_theme():
             color: white;
             font-size: 0.9rem;
         }
+        .button {
+            margin_top: 10px;
+        }
         </style>
         """,
         unsafe_allow_html=True,
