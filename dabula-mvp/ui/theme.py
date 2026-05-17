@@ -13,12 +13,11 @@ def apply_theme():
             background: linear-gradient(180deg, rgba(16,24,40,0.96), rgba(17,24,39,0.96));
             box-shadow: 0 10px 30px rgba(0,0,0,0.25);
             margin-bottom: 12px;
-            color: #f5f5f5;
         }
         .dabula-hero {
             padding: 28px;
             border-radius: 24px;
-            background: radial-gradient(circle at top left, #2b1b4f 0%, #0f172a 40%, #020617 100%);
+            background: radial-gradient(circle at top left, #2b1b4f 0%, #0f172a 55%, #020617 100%);
             border: 1px solid rgba(255,255,255,0.1);
             margin-bottom: 1.5rem;
         }
@@ -38,7 +37,6 @@ def apply_theme():
             color: white;
             font-size: 0.9rem;
         }
-       
         </style>
         """,
         unsafe_allow_html=True,
@@ -61,6 +59,9 @@ def metric_strip(items):
         html += f'<div class="metric-pill"><strong>{label}:</strong> {value}</div>'
     html += "</div>"
     st.markdown(html, unsafe_allow_html=True)
+
+def section_title(text):
+    st.markdown(f"## {text}")
 
 def card(title, body):
     st.markdown(
